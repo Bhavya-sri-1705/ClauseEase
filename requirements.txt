@@ -1,0 +1,18 @@
+streamlit==1.29.0
+flask
+pandas
+nltk
+spacy
+transformers
+textstat
+PyMuPDF
+sentencepiece
+protobuf
+scikit-learn
+tqdm
+
+# CPU-only PyTorch wheels (keep if you need transformers with cpu torch)
+torch==2.3.1+cpu
+torchvision==0.18.1+cpu
+torchaudio==2.3.1+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
